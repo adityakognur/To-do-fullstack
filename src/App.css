@@ -1,0 +1,39 @@
+/* App.css */
+
+/* General body and container styling */
+body {
+  background: linear-gradient(135deg, #1e1e1e, #333333); /* Dark gradient background */
+  color: #eaeaea; /* Light text color */
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensure body takes full height */
+}
+
+/* Ensure .container is flexible and allows content to push beyond its bounds */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh; /* Ensure container takes full height */
+}
+
+/* Style for the task form container */
+.task-form-container {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Style for the task list container */
+.task-list-container {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Optional: Add space to push content down */
+.spacer {
+  flex: 1;
+}

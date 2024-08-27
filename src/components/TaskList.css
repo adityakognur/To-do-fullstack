@@ -1,0 +1,88 @@
+/* TaskList.css */
+
+/* Dark theme for the task list container */
+/* TaskList.css */
+
+/* Container for the task list */
+
+.task-list-container {
+  max-height: 100vh; /* Set a max height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  background-color: #000000; /* Dark background for task list */
+  border-radius: 5px;
+  padding: 10px;
+  height: 100vh;
+}
+
+.no-task {
+    color: rgba(255, 0, 0, 0.654);
+    margin-left: 40vw;
+    font-size: 3rem;
+}
+.back-button-container{
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the task list */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  background-color: #000000; /* Dark background for list items */
+  color: #e0e0e0; /* Light text color */
+  border: 1px solid #444; /* Dark border */
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+
+/* Styling for buttons in the task item */
+.task-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.task-edit-btn,
+.task-delete-btn {
+  background-color: #06b836b2; /* Purple background */
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-edit-btn:hover {
+  background-color:  #06b83679; /* Darker purple on hover */
+}
+
+.task-delete-btn {
+  background-color: #dc3545; /* Red background */
+}
+
+.task-delete-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Back button styling */
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #6200ee; /* Purple background */
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.back-button:hover {
+  background-color: #6300ee93; /* Darker purple on hover */
+}

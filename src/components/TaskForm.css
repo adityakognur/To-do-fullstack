@@ -1,0 +1,53 @@
+/* TaskForm.css */
+
+/* Dark theme for the task form container */
+.task-form-container {
+  background-color: #000000b5;  padding: 20px;
+  border-radius: 8px;
+  height: 100vh;
+}
+
+/* Dark theme for the form table */
+.task-form-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px; /* Space between rows */
+}
+
+.task-form-table td {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Dark theme for the input fields */
+.task-input {
+  background-color: #100f0fc3; /* Dark input field background */
+  color: #ffffff; /* Light text */
+  border: 1px solid #444; /* Slightly lighter dark border */
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1rem;
+  width: 80%; /* Full width */
+
+}
+
+.task-input::placeholder {
+  color: #ffffff; /* Lighter color for placeholder text */
+}
+
+/* Button styling */
+.task-button {
+  background-color: #423f45e7; /* Purple button background */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px; /* Space between buttons */
+}
+
+.task-button:hover {
+  background-color: #75717e; /* Darker purple on hover */
+}
